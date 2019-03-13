@@ -2,7 +2,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
       js: {
-                src: ['rectangle.js', 'calc.js'],
+                src: ['rectangle.js', 'rectangle.css','index.html'],
           dest: 'dist/bundle.js'
           
       }
