@@ -9,7 +9,7 @@ module.exports = function(grunt){
     }
   });
 
-  grunt.loadNpmTasks('grunt-spritesmith');
+  grunt.loadNpmTasks('grunt-spritemith');
 
   grunt.registerTask('default',['sprite']);
 };
