@@ -2,20 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <title>grunt less demo</title>
-      <link rel="stylesheet" href="css/layout.css">
-      </head>
-      <body>
-       <a href="https://spa.wangding.in">SPA 课程资料</a>
-        <div class="small">This is a small div.</div>
-         <div class="big">This is a big div.</div>
-          <blockquote>For example, the data-uri function encodes a file in base64 encoding and embeds it into the generated CSS files as a data-URI. Because Internet Explorer 8 limits data-uris to 32KB, the ieCompat option prevents less from exceeding this.</blockquote>
-          </body>
-          </html>
-
-
-
-
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>矩形计算器</title>
+  <link rel="stylesheet" href="rectangle.css">
+</head>
+<body>
+  <div class="rectangle">
+      <label>宽度：</label>
+      <input id="rectangle-width" type="text" data-label="宽度" autofocus>
+      <span>*</span>
+      <br>
+      <div id="rectangle-width-validate"></div>
+      <label>高度：</label>
+      <input id="rectangle-height" type="text" data-label="高度">
+      <span>*</span>
+      <br>
+      <div id="rectangle-height-validate"></div>
+      <input id="rectangle-calc" type="button" value="计算">
+      <br>
+      <label>周长：</label>
+      <input id="rectangle-perimeter" type="text" disabled>
+      <br>
+      <label>面积：</label>
+      <input id="rectangle-area" type="text" disabled>
+    </div>
+ <script src="rectangle.js"></script>
+</body>
+</html>
 
 
 
